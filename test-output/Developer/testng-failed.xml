@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ Developer]" parallel="none">
+  <parameter name="val1" value="sakshi"/>
+  <test name="default(failed)" parallel="none">
+    <classes>
+      <class name="abc.day4">
+        <methods>
+          <include name="ztaskcomplete"/>
+          <include name="Enterurl"/>
+          <include name="datatitle"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- abc.day4 -->
+    </classes>
+  </test> <!-- default(failed) -->
+</suite> <!-- Failed suite [ Developer] -->

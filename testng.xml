@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="loan dept">
+<listeners>
+
+<listener class-name="hello.Listener"></listener>
+
+</listeners>
+<parameter name="URL" value="https://www.quickues.in"></parameter>
+  <test thread-count="5" name="personol loan">
+    <classes>
+      <class name="hello.xyz"/>
+  <class name="hello.Abc"/>
+      
+                     <class name="hello.day4">
+            <methods>
+            <include name="apiloginhomeloan"></include>
+            </methods>
+            
+            </class>
+        
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="carloan">
+    <classes>
+      
+            <class name="hello.day3">
+            <methods>
+            <exclude name=" mobile.*"></exclude>
+            </methods>
+            
+            </class>
+          
+      
+        
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[This test verifies the current selenium compatibility with TestNG by launching the chrome driver]]>
+    </line>
+    <line>
+      <![CDATA[Launching Google Chrome Driver version 81 for this test]]>
+    </line>
+    <line>
+      <![CDATA[data test]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41" started-at="2020-08-17T10:39:56Z" finished-at="2020-08-17T10:39:56Z">
+    <groups>
+      <group name="socialsite">
+        <method signature="day1.facebook()[pri:0, instance:abc.day1@5d740a0f]" name="facebook" class="abc.day1"/>
+        <method signature="day1.instagram()[pri:0, instance:abc.day1@5d740a0f]" name="instagram" class="abc.day1"/>
+        <method signature="day1.whatsappchecking()[pri:0, instance:abc.day1@5d740a0f]" name="whatsappchecking" class="abc.day1"/>
+        <method signature="day3.hike()[pri:0, instance:abc.day3@534df152]" name="hike" class="abc.day3"/>
+      </group> <!-- socialsite -->
+    </groups>
+    <test name="Test" duration-ms="41" started-at="2020-08-17T10:39:56Z" finished-at="2020-08-17T10:39:56Z">
+      <class name="abc.day3">
+        <test-method status="PASS" signature="apilogin()[pri:0, instance:abc.day3@534df152]" name="apilogin" is-config="true" duration-ms="9" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apilogin -->
+        <test-method status="PASS" signature="hike()[pri:0, instance:abc.day3@534df152]" name="hike" duration-ms="1" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hike -->
+        <test-method status="PASS" signature="word()[pri:0, instance:abc.day3@534df152]" name="word" duration-ms="0" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- word -->
+        <test-method status="PASS" signature="data()[pri:0, instance:abc.day3@534df152]" name="data" duration-ms="1" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[This test verifies the current selenium compatibility with TestNG by launching the chrome driver]]>
+            </line>
+            <line>
+              <![CDATA[Launching Google Chrome Driver version 81 for this test]]>
+            </line>
+            <line>
+              <![CDATA[data test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method status="PASS" signature="apilogout()[pri:0, instance:abc.day3@534df152]" name="apilogout" is-config="true" duration-ms="1" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apilogout -->
+      </class> <!-- abc.day3 -->
+      <class name="abc.day1">
+        <test-method status="PASS" signature="mobilelogin()[pri:0, instance:abc.day1@5d740a0f]" name="mobilelogin" is-config="true" duration-ms="0" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilelogin -->
+        <test-method status="PASS" signature="start()[pri:0, instance:abc.day1@5d740a0f]" name="start" is-config="true" duration-ms="1" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="facebook()[pri:0, instance:abc.day1@5d740a0f]" name="facebook" duration-ms="6" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:abc.day1@5d740a0f]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="start()[pri:0, instance:abc.day1@5d740a0f]" name="start" is-config="true" duration-ms="1" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="instagram()[pri:0, instance:abc.day1@5d740a0f]" name="instagram" duration-ms="1" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instagram -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:abc.day1@5d740a0f]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="whatsappchecking()[pri:0, instance:abc.day1@5d740a0f]" name="whatsappchecking" duration-ms="1" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whatsappchecking -->
+        <test-method status="PASS" signature="start()[pri:0, instance:abc.day1@5d740a0f]" name="start" is-config="true" duration-ms="0" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:abc.day1@5d740a0f]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="start()[pri:0, instance:abc.day1@5d740a0f]" name="start" is-config="true" duration-ms="1" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="mobilesendingmessage()[pri:0, instance:abc.day1@5d740a0f]" name="mobilesendingmessage" duration-ms="1" depends-on-groups="socialsite" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilesendingmessage -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:abc.day1@5d740a0f]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="mobilelogout()[pri:0, instance:abc.day1@5d740a0f]" name="mobilelogout" is-config="true" duration-ms="0" started-at="2020-08-17T16:09:56Z" finished-at="2020-08-17T16:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilelogout -->
+      </class> <!-- abc.day1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

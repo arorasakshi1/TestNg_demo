@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name=" Developer">
+<groups>
+<run>
+<include name="socialsite"></include>
+</run>
+</groups>
+  <test thread-count="5" name="Desktop">
+    <classes>
+      <class name="abc.day2">
+       </class>
+          <class name="abc.day3">
+        </class>
+ 
+            </classes>
+    
+   
+      
+    </test> <!-- Test -->
+  <test thread-count="5" name="mobile">
+  <classes>
+             <class name="abc.day1">
+ 
+            </class>
+         
+                </classes>
+            
+  </test>
+</suite> <!-- Suite -->
