@@ -5,6 +5,8 @@ public class day1 {
 	public void mobilelogin()
 	{
 		System.out.println("belongs to day1 method name mobile login");
+
+		System.out.println("git");
 	}
 	@Test
 	public void mobilelogout()
